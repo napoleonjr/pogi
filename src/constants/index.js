@@ -30,7 +30,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Delgado St, Villa Anita ",
+  address: "Poblacion, Jordan Guimaras ",
   phoneNo: "094936196969 ",
-  email: "ajaybautista60@gmail.com",
+  email: "tadurannapoleonvicentejr@gmail.com",
 };

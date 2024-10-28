@@ -12,10 +12,10 @@ const Hero = () => {
    transition= {{duration: 1.5}} className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl">Ajay Bautista</motion.h1>
             <motion.span whileInView={{opacity: 1, x: 0}}
    initial={{ opacity: 0, x:-100 }}
-   transition= {{duration: 1.5}} className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">Full stack, UI/UX</motion.span>
+   transition= {{duration: 1}} className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">Full stack, UI/UX</motion.span>
             <motion.p whileInView={{opacity: 1, x: 0}}
    initial={{ opacity: 0, x:-200 }}
-   transition= {{duration: 1.5}} className="my-2 max-w-xl py-6 font-light tracking-tighter ">{HERO_CONTENT} </motion.p>
+   transition= {{duration: 1}} className="my-2 max-w-xl py-6 font-light tracking-tighter ">{HERO_CONTENT} </motion.p>
 
             
 
